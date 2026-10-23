@@ -1,0 +1,14 @@
+# Local Python environment and generated files
+.DS_Store
+**/__pycache__/
+*.py[cod]
+SpiderVision/.venv/
+SpiderVision/screenshots/
+*.log
+
+# Private face enrollment and local configuration
+SpiderVision/.face_identity*
+.env
+.env.*
+SpiderVision/.env
+SpiderVision/.env.*

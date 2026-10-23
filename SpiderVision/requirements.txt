@@ -1,0 +1,35 @@
+# Spider Vision HUD — Dependencies
+# Install: pip install -r requirements.txt
+
+# === OpenGL Rendering ===
+moderngl>=5.10.0
+glfw>=2.6.5
+PyGLM>=2.7.3
+moderngl-window>=2.4.6
+
+# === Computer Vision ===
+opencv-contrib-python>=4.9.0.80,<6
+mediapipe==0.10.14
+numpy>=1.26.0
+
+# === Audio ===
+pygame>=2.5.2
+sounddevice>=0.5,<1
+vosk==0.3.44
+
+# === TTS ===
+edge-tts>=6.1.12
+asyncio-compat>=0.1.2
+
+# === System Monitoring ===
+psutil>=5.9.8
+# GPU monitor is optional; macOS reports unavailable rather than a misleading reading.
+
+# === Image Processing ===
+Pillow>=10.3.0
+
+# === Scientific Computing (sound synthesis) ===
+scipy>=1.12.0
+
+# === Async ===
+aiofiles>=23.2.1
